@@ -1,0 +1,73 @@
+/* ADD YOUR STYLES HERE */
+/*2. Stats*/
+
+#tstats {
+	border-top: 1px solid rgb(185,185,185);
+	border-bottom: 1px solid rgb(185,185,185);
+	width: 40%;
+	margin: 5%;
+}
+
+
+.num{
+	font-size: 36px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 20%;
+}
+
+.word{
+	font-size: 12px;
+	color: gray;
+	text-align: center;
+	opacity: .5;
+	margin-bottom: 20%;
+}
+
+
+
+/*4. Lightbox CSS*/
+
+#container{
+	display: -webkit-flex;
+	display: flex;
+	background-color: gray;
+	height: 500px;
+	width: 100%;
+}
+
+#inner{
+	margin: auto;
+	width: 70%;
+	height: 55%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#content{
+	margin: 3%;
+}
+
+#content a{
+	background-color: #FF6F6F;
+	color: white;
+	float: right;
+	border-radius: 5px;
+	width: 25%;
+	height: 35px;
+	text-align: center;
+	line-height: 2;
+	margin-right: 5%;
+}
+
+
+/*5. Media Block CSS*/
+img{
+	float: left;
+	margin: 0 1% 0 0;
+}
+
+#one, #top, .nested {
+	overflow: auto;
+}
+

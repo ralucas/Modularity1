@@ -24,6 +24,19 @@
 	margin-bottom: 20%;
 }
 
+/* 3. Bar chart */
+/* added html class to table to help with styles */
+.bar-chart td {
+	width: 500px;
+}
+.bar-chart td div {
+	background: #0EBFE9;
+	border-radius: 0 3px 3px 0;
+	color: #FFF;
+	/* space the text out a bit */
+	padding-left: 5px;
+	margin-left: 10px;
+}
 
 
 /*4. Lightbox CSS*/
